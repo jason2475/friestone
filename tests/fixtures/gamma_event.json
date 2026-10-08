@@ -1,0 +1,26 @@
+[
+  {
+    "id": "12345",
+    "slug": "sample-event",
+    "title": "Sample event",
+    "markets": [
+      {
+        "id": "m1",
+        "slug": "sample-market",
+        "question": "Will it happen?",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0.62\", \"0.38\"]",
+        "bestBid": 0.61,
+        "bestAsk": 0.63,
+        "volume": "15000.5",
+        "active": true,
+        "closed": false,
+        "endDate": "2026-12-31T00:00:00Z"
+      },
+      {
+        "id": "m2",
+        "question": "Market with missing fields"
+      }
+    ]
+  }
+]
